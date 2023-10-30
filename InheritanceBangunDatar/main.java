@@ -25,7 +25,8 @@ public class main {
         
         Segitiga segitiga = new Segitiga();
         segitiga.alas=12;
-        segitiga.tinggi=8;
+        segitiga.tinggi=9;
+        segitiga.miring=15;
         
         //menunjukkan inheritage
         bangundatar.luas();
@@ -37,10 +38,10 @@ public class main {
         persegipanjang.luas();
         persegipanjang.keliling();
         
-        segitiga.luas();
-        segitiga.keliling();
-        
         lingkaran.luas();
         lingkaran.keliling();
+                
+        segitiga.luas();
+        segitiga.keliling();
     }
 }
